@@ -1,0 +1,33 @@
+{
+  "name": "401-lab-03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "eslint": "^6.5.1",
+    "faker": "^4.1.0",
+    "lint": "^0.7.0"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "scripts": {
+    "lint": "eslint './edit-file.js' --fix",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json",
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahduv/401-lab-03.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarahduv/401-lab-03/issues"
+  },
+  "homepage": "https://github.com/sarahduv/401-lab-03#readme"
+}
