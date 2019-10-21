@@ -2,6 +2,11 @@
 
 module.exports = exports = {};
 
+/**
+* @param {String} file - the relative filepath
+* @param {function} cb - error first callback function
+*/
+
 exports.readFile = (file, cb) => {
   if( file.match(/bad/i) ) {
     cb('Invalid File');
